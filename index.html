@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeria visual de proyectos digitales con desarrollo web, analitica, nube, redes y experiencias moviles en una presentacion editorial.">
+  <meta name="keywords" content="galeria digital, proyectos tecnicos, desarrollo web, datos, nube, redes">
+  <meta name="author" content="Joseph">
+  <title>Semana02Grupo | Galeria Digital</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <div class="page-shell">
+    <nav class="site-nav" role="navigation" aria-label="Navegacion principal">
+      <a class="brand" href="#contenido-principal" aria-label="Ir al contenido principal de la galeria">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Semana02Grupo</span>
+      </a>
+      <div class="nav-links">
+        <a href="#site-title">Portada</a>
+        <a href="#desarrollo">Desarrollo</a>
+        <a href="#datos">Analitica</a>
+        <a href="#infraestructura">Infraestructura</a>
+        <a href="#resumen">Curaduria</a>
+        <input class="theme-checkbox" type="checkbox" aria-label="Cambiar entre modo claro y oscuro">
+      </div>
+    </nav>
+
+    <header class="hero" aria-labelledby="site-title">
+      <div class="hero-orb" aria-hidden="true"></div>
+      <p class="eyebrow">Seleccion visual</p>
+      <h1 id="site-title">Galeria de Proyectos Digitales</h1>
+      <p class="lead">
+        Una coleccion visual de soluciones digitales que conecta interfaces, datos,
+        infraestructura y experiencias moviles en una sola vitrina.
+      </p>
+    </header>
+
+    <main id="contenido-principal" class="content" tabindex="-1" aria-label="Contenido principal">
+      <section class="gallery-section" id="desarrollo" aria-labelledby="desarrollo-title">
+        <div class="section-heading">
+          <p class="section-kicker">Area 01</p>
+          <h2 id="desarrollo-title">Desarrollo de software</h2>
+        </div>
+
+        <div class="project-row">
+          <article class="project-card accent-a" aria-labelledby="proyecto-web-title">
+            <img class="project-art" src="img/dashboard.jpg" alt="Pantallas con graficos y paneles de analitica en una interfaz de escritorio" loading="lazy" decoding="async" width="1200" height="622">
+            <p class="project-tag">Frontend</p>
+            <h3 id="proyecto-web-title">Panel de monitoreo web</h3>
+            <p>
+              Interfaz modular para visualizar alertas, estados de servicios y reportes
+              diarios en una misma vista adaptable.
+            </p>
+          </article>
+
+          <article class="project-card accent-b" aria-labelledby="proyecto-api-title">
+            <img class="project-art" src="img/coding.jpg" alt="Pantalla con codigo y trabajo de desarrollo backend en un entorno de programacion" loading="lazy" decoding="async" width="1200" height="800">
+            <p class="project-tag">Backend</p>
+            <h3 id="proyecto-api-title">API para inventario distribuido</h3>
+            <p>
+              Servicio de consulta y sincronizacion para sedes remotas con rutas separadas,
+              control de stock y trazabilidad de operaciones.
+            </p>
+          </article>
+
+          <article class="project-card accent-c" aria-labelledby="proyecto-mobile-title">
+            <img class="project-art" src="img/mobile-app.jpg" alt="Persona utilizando una aplicacion movil para registrar informacion de trabajo" loading="lazy" decoding="async" width="1200" height="1800">
+            <p class="project-tag">Movil</p>
+            <h3 id="proyecto-mobile-title">App de inspeccion tecnica</h3>
+            <p>
+              Registro de incidencias en campo con formularios ligeros, evidencia visual
+              y resumen inmediato para equipos operativos.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="datos" aria-labelledby="datos-title">
+        <div class="section-heading">
+          <p class="section-kicker">Area 02</p>
+          <h2 id="datos-title">Analitica y datos</h2>
+        </div>
+
+        <div class="project-row">
+          <article class="project-card accent-d" aria-labelledby="proyecto-bi-title">
+            <img class="project-art" src="img/analytics.jpg" alt="Visualizacion de indicadores y datos en una pantalla con graficos de negocio" loading="lazy" decoding="async" width="1200" height="800">
+            <p class="project-tag">BI</p>
+            <h3 id="proyecto-bi-title">Tablero de indicadores institucionales</h3>
+            <p>
+              Consolida metricas de rendimiento, seguimiento operativo y comportamiento
+              historico con filtros para toma de decisiones.
+            </p>
+          </article>
+
+          <article class="project-card accent-e" aria-labelledby="proyecto-ml-title">
+            <img class="project-art" src="img/cloud.jpg" alt="Servidor y flujos digitales vinculados con servicios de nube y procesamiento de datos" loading="lazy" decoding="async" width="4000" height="2660">
+            <p class="project-tag">Prediccion</p>
+            <h3 id="proyecto-ml-title">Modelo de pronostico de demanda</h3>
+            <p>
+              Estima variaciones semanales mediante series temporales y variables de contexto
+              para anticipar saturaciones de servicio.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="infraestructura" aria-labelledby="infra-title">
+        <div class="section-heading">
+          <p class="section-kicker">Area 03</p>
+          <h2 id="infra-title">Infraestructura y seguridad</h2>
+        </div>
+
+        <div class="project-row">
+          <article class="project-card accent-f" aria-labelledby="proyecto-red-title">
+            <img class="project-art" src="img/network.jpg" alt="Conexion de red con nodos y visualizacion de infraestructura digital" loading="lazy" decoding="async" width="1200" height="800">
+            <p class="project-tag">Redes</p>
+            <h3 id="proyecto-red-title">Mapa de segmentacion segura</h3>
+            <p>
+              Distribucion de servicios por zonas, niveles de acceso y reglas de trafico
+              para reducir superficie de riesgo en la red interna.
+            </p>
+          </article>
+
+          <article class="project-card accent-g" aria-labelledby="proyecto-cloud-title">
+            <img class="project-art" src="img/server-room.jpg" alt="Sala de servidores con equipos preparados para respaldo y continuidad operativa" loading="lazy" decoding="async" width="1200" height="800">
+            <p class="project-tag">Cloud</p>
+            <h3 id="proyecto-cloud-title">Esquema de respaldo en la nube</h3>
+            <p>
+              Define politicas de copias, versionado y recuperacion para ambientes de prueba
+              y produccion con tiempos de respuesta claros.
+            </p>
+          </article>
+
+          <article class="project-card accent-h" aria-labelledby="proyecto-auditoria-title">
+            <img class="project-art" src="img/security.jpg" alt="Centro de monitoreo con multiples pantallas para seguimiento de eventos de seguridad" loading="lazy" decoding="async" width="1200" height="675">
+            <p class="project-tag">Auditoria</p>
+            <h3 id="proyecto-auditoria-title">Bitacora de eventos criticos</h3>
+            <p>
+              Registro estructurado de cambios sensibles, accesos administrativos y alertas
+              de integridad para revisiones periodicas.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <aside class="summary-panel" id="resumen" aria-labelledby="resumen-title">
+      <h2 id="resumen-title">Curaduria visual</h2>
+      <p>
+        La seleccion reune experiencias de trabajo digital orientadas a observabilidad,
+        analitica, conectividad, continuidad operativa y herramientas de campo.
+      </p>
+      <ul class="summary-list">
+        <li>Interfaces para seguimiento y visualizacion de informacion.</li>
+        <li>Soluciones para inventario, prediccion y reportes.</li>
+        <li>Escenarios de nube, redes y control de eventos.</li>
+        <li>Herramientas digitales orientadas a operacion real.</li>
+      </ul>
+    </aside>
+
+    <footer class="site-footer">
+      <p>Semana02Grupo | Coleccion digital de proyectos y soluciones visuales.</p>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var button = document.querySelector(".theme-checkbox");
+      var storageKey = "semana02grupo-tema";
+      var prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+      if (!button) {
+        return;
+      }
+
+      function applyTheme(theme) {
+        root.setAttribute("data-theme", theme);
+        button.checked = theme === "oscuro";
+        button.setAttribute("title", theme === "oscuro" ? "Tema oscuro" : "Tema claro");
+      }
+
+      var savedTheme = localStorage.getItem(storageKey);
+      var initialTheme = savedTheme || (prefersDark.matches ? "oscuro" : "claro");
+      applyTheme(initialTheme);
+
+      button.addEventListener("change", function () {
+        var nextTheme = button.checked ? "oscuro" : "claro";
+        localStorage.setItem(storageKey, nextTheme);
+        applyTheme(nextTheme);
+      });
+    })();
+  </script>
+</body>
+</html>
